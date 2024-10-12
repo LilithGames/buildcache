@@ -101,7 +101,7 @@ std::unique_ptr<bcache::program_wrapper_t> find_suitable_wrapper(
       }
     }
     if (wrapper) {
-      break;
+      return wrapper;
     }
   }
 
